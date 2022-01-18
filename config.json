@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Елизавета Русакова"
+  },
+  "text": {
+    "more": "На графе представлена взаимосвязь персон, прямо или косвенно относящихся к судьбе здания под номером 21/4 на Старой Басманной улице в Москве.\nДанные собраны на основе книги А.Плоховой \"Дом 21/4 на Старой Басманной\"\n\nСформированы кластеры:\n-зеленый - XVIII в., Усадьба князя Куракина\n-голубой - начало XIX в., Переходный период и Межевой институт\n-фиолетовый - XIX в., Александровское коммерческое училище\n-красный - XX в., МИХМ\n\nПомимо временной принадлежности так же учтен род деятельности персон, что формирует подкластеры. Например, оранжевый - преподаватели точных наук Александровского коммерческого училища, которые связываются с кластером преподавателей точных наук МИХМ.",
+    "intro": "",
+    "title": "Сквозь историю Дома 21/4 на Старой Басманной"
+  },
+  "legend": {
+    "edgeLabel": "Взаимосвязи по временному параметру или по сфере деятельности",
+    "colorLabel": "",
+    "nodeLabel": "Персоны"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
